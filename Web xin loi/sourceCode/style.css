@@ -1,0 +1,104 @@
+* {
+  font-family: cursive;
+}
+.container-fluid {
+  background-color: pink;
+  height: 100vh;
+}
+.author {
+  color: palevioletred;
+}
+.title {
+  font-size: 150%;
+  transition: transform 0.1s linear;
+  color: rgb(224, 64, 118);
+  z-index: 2;
+}
+.title:hover {
+  cursor: pointer;
+}
+
+.heart-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: rgb(247, 131, 170);
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: rgba(247, 131, 170);
+  border-radius: 100%;
+  position: absolute;
+}
+
+.heart::before {
+  top: -50px;
+  left: 0;
+}
+
+.heart::after {
+  top: 0;
+  left: 50px;
+}
+
+/* page-two */
+.main {
+  display: none;
+  z-index: 10;
+}
+.text{
+  font-size: larger;
+}
+.text-sorry-2 {
+  animation-delay: 6s;
+  font-size: large;
+}
+.text-sorry-3 {
+  animation-delay: 8s;
+}
+.text-sorry-4 {
+  animation-delay: 10s;
+}
+.wrapper-button {
+  animation-delay: 12s;
+}
+
+/* page-three */
+.page-video {
+  display: none;
+}
+.text-watch {
+  color: rgb(243, 78, 243);
+}
+.continue-button {
+  animation-delay: 30s;
+  color: rgb(243, 78, 243);
+  background-color:rgb(233, 183, 233);
+}
+.video {
+  width: 35%;
+  border: 2px solid plum;
+}
+
+
+/* page-four */
+.page-four{
+  display:none;
+}
+.continue-two {
+  animation-delay: 15s;
+}
