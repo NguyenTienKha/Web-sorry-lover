@@ -15,7 +15,7 @@
 <body>
     <div class="container-fluid d-flex align-items-center justify-content-center">
 
-        <audio src="./video/audiosound.mp3" autoplay loop></audio>
+        <!-- <audio src="./video/audiosound.mp3" autoplay loop></audio>
 
         <div class="d-flex align-content-end h-100 w-100 position-absolute author">&copy; Nguyen Tien Kha</div>
 
@@ -130,39 +130,19 @@
                     class="continue-button continue-two animate__animated animate__zoomIn m-2 rounded-3 border-0 shadow fw-bold p-2"
                     onclick="changePageFive()">Continue</button>
             </div>
+        </div> -->
+
+        <div id="page-five">
+            <textarea name="" id="text" cols="30" rows="10"></textarea>
+            <button onclick="handleSubmit()">submit</button>
         </div>
+
 
 
     </div>
 
-    <script>
-        let pageTwo = document.getElementById("page-two");
-        let pageThree = document.getElementById("page-three");
-        let pageFour = document.getElementById("page-four");
-        function changePageTwo() {
-            let titlePage = document.getElementById("title-page");
-            let heartItem = document.getElementById("heart-item");
 
-            titlePage.style.display = "none";
-            heartItem.style.display = "none";
-            pageTwo.style.display = "block";
-        }
-        function changePageThree() {
-
-            pageThree.style.display = "block";
-            pageTwo.style.display = "none";
-        }
-        function changePageFour() {
-            pageFour.style.display = "block";
-            pageThree.style.display = "none";
-        }
-        function changePageFive() {
-            pageFour.style.display = "none";
-        }
-        function failChoice() {
-            alert("Anh viết cái này cho vui thôi chứ ấn không được đâu nha ! HIHI Ấn nút bên cạnh đuy 😘")
-        }
-    </script>
+    <script src="main.js"></script>
 
 </body>
 
