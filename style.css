@@ -102,3 +102,8 @@
 .continue-two {
   animation-delay: 15s;
 }
+
+/* page-five */
+.page-five{
+  display:none;
+}
