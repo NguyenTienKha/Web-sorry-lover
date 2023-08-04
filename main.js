@@ -2,6 +2,8 @@ let pageTwo = document.getElementById("page-two");
 let pageThree = document.getElementById("page-three");
 let pageFour = document.getElementById("page-four");
 let pageFive = document.getElementById("page-five");
+let pageSix = document.getElementById("page-six");
+let pageSeven = document.getElementById("page-seven");
 
 function changePageTwo() {
   let titlePage = document.getElementById("title-page");
@@ -22,6 +24,20 @@ function changePageFour() {
   pageThree.style.display = "none";
 }
 
+function changePageFive() {
+  pageFive.style.display = "block";
+  pageFour.style.display = "none";
+}
+
+function changePageSix() {
+  pageSix.style.display = "block";
+  pageFive.style.display = "none";
+}
+function changeSevenPage() {
+  pageSeven.style.display = "block";
+  pageSix.style.display = "none";
+}
+
 async function handleSubmit() {
   const url = "https://serverweb-production.up.railway.app/api/note";
   const data = {
@@ -34,11 +50,7 @@ async function handleSubmit() {
     },
     body: JSON.stringify(data),
   });
-
-  function changePageFive() {
-    pageFive.style.display = "block";
-    pageFour.style.display = "none";
-  }
+  changeSevenPage();
 }
 
 function failChoice() {

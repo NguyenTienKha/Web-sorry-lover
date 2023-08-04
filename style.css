@@ -60,7 +60,7 @@
   display: none;
   z-index: 10;
 }
-.text{
+.text {
   font-size: larger;
 }
 .text-sorry-2 {
@@ -81,29 +81,52 @@
 .page-video {
   display: none;
 }
-.text-watch {
-  color: rgb(243, 78, 243);
+.text-watch,
+.label-page-six,
+.item__text-page-five {
+  color: rgb(242, 40, 242);
 }
 .continue-button {
   animation-delay: 30s;
-  color: rgb(243, 78, 243);
-  background-color:rgb(233, 183, 233);
+  color: rgb(242, 40, 242);
+  background-color: rgb(233, 183, 233);
 }
 .video {
   width: 35%;
   border: 2px solid plum;
 }
 
-
 /* page-four */
-.page-four{
-  display:none;
+.page-four {
+  display: none;
 }
-.continue-two {
+.continue-five {
   animation-delay: 15s;
 }
 
 /* page-five */
-.page-five{
+.page-five {
   display:none;
+}
+.item__text-page-five:nth-child(5) {
+  animation-delay: 6s;
+}
+.item__text-page-five:nth-child(6) {
+  animation-delay: 7s;
+}
+.continue-six{
+  animation-delay: 10s;
+}
+
+/* page-six */
+.page-six {
+  display: none;
+}
+.note-bae {
+  background-color: rgb(243, 235, 246);
+}
+
+/* page-seven */
+.page-seven {
+  display: none;
 }

@@ -15,14 +15,12 @@
 <body>
     <div class="container-fluid d-flex align-items-center justify-content-center">
 
-        <audio src="./video/audiosound.mp3" autoplay loop></audio>
-
         <div class="d-flex align-content-end h-100 w-100 position-absolute author">&copy; Nguyen Tien Kha</div>
 
 
         <div id="page-one" class="wrapper-pageOne d-flex align-items-center justify-content-center">
-            <div class="title fw-bold animate__animated animate__heartBeat animate__infinite fs-1" onclick="changePageTwo()"
-                id="title-page">
+            <div class="title fw-bold animate__animated animate__heartBeat animate__infinite fs-1"
+                onclick="changePageTwo()" id="title-page">
                 Click
                 here bae ❤️
                 <span>👈</span>
@@ -36,12 +34,15 @@
 
 
         <div class="main text-center fw-bold" id="page-two">
-            <div class="text text-love animate__animated animate__backInLeft animate__delay-2s">I do love you ❤️</div><br>
-            <div class="text text-sorry-1 animate__animated animate__backInLeft animate__delay-4s">Please forgive me! I love
+            <div class="text text-love animate__animated animate__backInLeft animate__delay-2s">I do love you ❤️</div>
+            <br>
+            <div class="text text-sorry-1 animate__animated animate__backInLeft animate__delay-4s">Please forgive me! I
+                love
                 you so much!
             </div><br>
             <div class="text text-sorry-2 animate__animated animate__backInLeft ">Stay here with me bae 🥹</div><br>
-            <div class="text text-sorry-3 animate__animated animate__backInLeft animate__delay-8s">I can't bear to lose you
+            <div class="text text-sorry-3 animate__animated animate__backInLeft animate__delay-8s">I can't bear to lose
+                you
                 😞
             </div><br>
             <div class="text text-sorry-4 animate__animated animate__backInLeft">I won't make you sad
@@ -49,8 +50,10 @@
             </div>
             <br>
             <div class="wrapper-button animate__animated animate__backInDown">
-                <button class="border-0 rounded-5 shadow p-2 m-2" onclick="changePageThree()">我同意 🥰</button>
-                <button onclick="failChoice()" class="border-0 rounded-5 shadow p-2 m-2">我不同意 😎</button>
+                <button class="continue-button border-0 rounded-5 shadow p-3 m-2 fw-bold ms-4 me-4"
+                    onclick="changePageThree()">我同意 🥰</button>
+                <button onclick="failChoice()"
+                    class="continue-button border-0 rounded-5 shadow p-3 m-2 fw-bold ms-4 me-4">我不同意 😎</button>
             </div>
         </div>
 
@@ -70,7 +73,8 @@
                 </div>
 
                 <video src="./video/vidoetonghop.mp4"
-                    class="video animate__animated animate__jackInTheBox animate__delay-4s  p-2 shadow" controls></video>
+                    class="video animate__animated animate__jackInTheBox animate__delay-4s  p-2 shadow col-5"
+                    controls></video>
             </div>
         </div>
 
@@ -127,14 +131,65 @@
                     </button>
                 </div><br>
                 <button id="continuebutton"
-                    class="continue-button continue-two animate__animated animate__zoomIn m-2 rounded-3 border-0 shadow fw-bold p-2"
+                    class="continue-button continue-five animate__animated animate__zoomIn m-2 rounded-3 border-0 shadow fw-bold p-2"
                     onclick="changePageFive()">Continue</button>
             </div>
         </div>
 
-        <div id="page-five" class="page-five">
-            <textarea name="" id="text" cols="30" rows="10"></textarea>
-            <button onclick="handleSubmit()">submit</button>
+        <div id="page-five" class="page-five w-100">
+            <div class="wrapper-page-five d-flex justify-content-between">
+                <div class="wrapper-video-page-five animate__animated animate__bounceInLeft animate__delay-1s col-4 ">
+                    <video src="./video/videoPagefive.mp4" autoplay loop class="w-100 rounded-3 w-50 shadow">
+                </div>
+                <div class="text-page-five col-6 mt-5">
+                    <div
+                        class="title-page-five fw-bold fs-3 animate__animated animate__lightSpeedInRight animate__delay-2s">
+                        Một số lời
+                        nho nhỏ của anh 😤:</div>
+                    <div
+                        class="item__text-page-five fs-4 mt-4 animate__animated animate__lightSpeedInRight animate__delay-3s">
+                        ♎ Em à bữa
+                        giờ lâu quá không có em anh chịu không nổi
+                        rồi em</div>
+                    <div
+                        class="item__text-page-five fs-4 mt-4 animate__animated animate__lightSpeedInRight animate__delay-4s">
+                        ♍ Anh biết
+                        là anh đã sai nhiều lắm rồi em à.</div>
+                    <div
+                        class="item__text-page-five fs-4 mt-4 animate__animated animate__lightSpeedInRight animate__delay-5s">
+                        ♎ Nên là
+                        lần này em cho anh cơ hội với em nha.</div>
+                    <div class="item__text-page-five fs-4 mt-4 animate__animated animate__lightSpeedInRight">♍ Anh hứa
+                        sẽ cố gắng trở nên thật tốt và không làm em
+                        buồn nữa nha.</div>
+                    <div class="item__text-page-five fs-4 mt-4 animate__animated animate__lightSpeedInRight">♎ Em ở
+                        lại
+                        với anh đừng đi nữa nha em.</div>
+                    <button id="continuebutton"
+                        class="continue-button continue-six animate__animated animate__zoomIn m-2 rounded-3 border-0 shadow fw-bold p-2 mt-4"
+                        onclick="changePageSix()">Continue</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-six" class="page-six">
+            <div class="wrapper-page-six d-flex flex-column">
+                <label class="label-page-six fw-bold m-3 fs-5 animate__animated animate__backInLeft animate__delay-1s "
+                    for="text">*Nếu em
+                    muốn nói gì đó với anh hãy nhập vào ô bên dưới nha béooooo❤️</label>
+                <textarea name="" id="text" cols="30" rows="10"
+                    class="note-bae w-100 rounded-5 shadow p-4 animate__animated animate__backInRight animate__delay-3s"></textarea>
+
+                <div class="d-flex justify-content-center ">
+                    <button onclick="handleSubmit()"
+                        class="continue-button fw-bold p-2 m-3 rounded-3 shadow border-0 text-nowrap animate__animated animate__backInUp animate__delay-5s ">Submit
+                        this message and continue</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-seven" class="page-seven">
+            <div>haha</div>
         </div>
 
 
