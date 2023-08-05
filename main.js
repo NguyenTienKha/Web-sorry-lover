@@ -71,10 +71,48 @@ function failChoicetwo() {
 
 const itemTextPageFiveList = document.querySelectorAll(".item__text-page-five");
 
-// Định nghĩa một mảng chứa các giá trị delay tương ứng cho từng phần tử
-const delayValues = [6, 8, 10, 12, 14];
+const delayValuesPageFive = [6, 8, 10, 12, 14];
 
-// Sử dụng vòng lặp để thêm thuộc tính animation-delay cho các phần tử
 itemTextPageFiveList.forEach((item, index) => {
-  item.style.animationDelay = `${delayValues[index]}s`;
+  item.style.animationDelay = `${delayValuesPageFive[index]}s`;
+});
+
+const itemTextPageSevenList = document.querySelectorAll(
+  ".item__text-page-seven"
+);
+
+const delayValuesPageSeven = [1, 2, 3, 4, 5, 6];
+
+itemTextPageSevenList.forEach((item, index) => {
+  item.style.animationDelay = `${delayValuesPageSeven[index]}s`;
+});
+
+const itemTextPageEightList1 = document.querySelectorAll(".word");
+
+const delayValuesPageEight1 = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+];
+
+itemTextPageEightList1.forEach((item, index) => {
+  item.style.animationDelay = `${delayValuesPageEight1[index]}s`;
+});
+
+const itemTextPageEightList2 = document.querySelectorAll(".item__text-end");
+
+const delayValuesPageEight2 = [
+  17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
+];
+
+itemTextPageEightList2.forEach((item, index) => {
+  item.style.animationDelay = `${delayValuesPageEight2[index]}s`;
+});
+
+const itemTextPageEightList3 = document.querySelectorAll(".item__text-end-two");
+
+const delayValuesPageEight3 = [
+  35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+];
+
+itemTextPageEightList3.forEach((item, index) => {
+  item.style.animationDelay = `${delayValuesPageEight3[index]}s`;
 });

@@ -1,5 +1,5 @@
-* {
-  font-family: cursive;
+*{
+  font-family: 'Times New Roman', Times, serif;
 }
 .container-fluid {
   background-color: pink;
@@ -110,21 +110,6 @@
 .page-five {
   display: none;
 }
-/* .item__text-page-five:nth-child(2) {
-  animation-delay: 6s;
-}
-.item__text-page-five:nth-child(3) {
-  animation-delay: 8s;
-}
-.item__text-page-five:nth-child(4) {
-  animation-delay: 10s;
-}
-.item__text-page-five:nth-child(5) {
-  animation-delay: 12s;
-}
-.item__text-page-five:nth-child(6) {
-  animation-delay: 14s;
-} */
 .continue-six {
   animation-delay: 15s;
 }
@@ -145,9 +130,6 @@
   display: none;
   z-index: 100;
 }
-.item__text-page-seven {
-  animation-delay: 6s;
-}
 .continue-eight {
   animation-delay: 8s;
 }
@@ -159,131 +141,6 @@
 .item__icon-page-eight,
 .text-hightlight-page-eight {
   animation-iteration-count: infinite;
-}
-.word:nth-child(6) {
-  animation-delay: 6s;
-}
-.word:nth-child(7) {
-  animation-delay: 7s;
-}
-.word:nth-child(8) {
-  animation-delay: 8s;
-}
-.word:nth-child(9) {
-  animation-delay: 9s;
-}
-.word:nth-child(10) {
-  animation-delay: 10s;
-}
-.word:nth-child(11) {
-  animation-delay: 11s;
-}
-.word:nth-child(12) {
-  animation-delay: 12s;
-}
-.word:nth-child(13) {
-  animation-delay: 13s;
-}
-.word:nth-child(14) {
-  animation-delay: 14s;
-}
-.word:nth-child(15) {
-  animation-delay: 15s;
-}
-
-.item__text-end:nth-child(1){
-  animation-delay: 17s;
-}
-.item__text-end:nth-child(2){
-  animation-delay: 18s;
-}
-.item__text-end:nth-child(3){
-  animation-delay: 19s;
-}
-.item__text-end:nth-child(4){
-  animation-delay: 20s;
-}
-.item__text-end:nth-child(5){
-  animation-delay: 21s;
-}
-.item__text-end:nth-child(6){
-  animation-delay: 22s;
-}
-.item__text-end:nth-child(7){
-  animation-delay: 23s;
-}
-.item__text-end:nth-child(8){
-  animation-delay: 24s;
-}
-.item__text-end:nth-child(9){
-  animation-delay: 25s;
-}
-.item__text-end:nth-child(10){
-  animation-delay: 26s;
-}
-.item__text-end:nth-child(11){
-  animation-delay: 27s;
-}
-.item__text-end:nth-child(12){
-  animation-delay: 28s;
-}
-.item__text-end:nth-child(13){
-  animation-delay: 29s;
-}
-.item__text-end:nth-child(14){
-  animation-delay: 30s;
-}
-.item__text-end:nth-child(15){
-  animation-delay: 31s;
-}
-.item__text-end:nth-child(16){
-  animation-delay: 32s;
-}
-
-.item__text-end-two:nth-child(1){
-  animation-delay: 35s;
-}
-.item__text-end-two:nth-child(2){
-  animation-delay: 36s;
-}
-.item__text-end-two:nth-child(3){
-  animation-delay: 37s;
-}
-.item__text-end-two:nth-child(4){
-  animation-delay: 38s;
-}
-.item__text-end-two:nth-child(5){
-  animation-delay: 39s;
-}
-.item__text-end-two:nth-child(6){
-  animation-delay: 40s;
-}
-.item__text-end-two:nth-child(7){
-  animation-delay: 41s;
-}
-.item__text-end-two:nth-child(8){
-  animation-delay: 42s;
-}
-.item__text-end-two:nth-child(9){
-  animation-delay: 43s;
-}
-.item__text-end-two:nth-child(10){
-  animation-delay: 44s;
-}
-.item__text-end-two:nth-child(11){
-  animation-delay: 45s;
-}
-.item__text-end-two:nth-child(12){
-  animation-delay: 46s;
-}
-.item__text-end-two:nth-child(13){
-  animation-delay: 47s;
-}
-.item__text-end-two:nth-child(14){
-  animation-delay: 48s;
-}
-.item__text-end-two:nth-child(15){
-  animation-delay: 49s;
 }
 
 .button-end{
