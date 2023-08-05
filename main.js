@@ -56,7 +56,7 @@ async function handleSubmit() {
     body: JSON.stringify(data),
   });
   changePageSeven();
-} 
+}
 
 function failChoice() {
   alert(
@@ -68,3 +68,13 @@ function failChoicetwo() {
     "Anh cũng viết cái nút này cho vui thôi chứ đâu ra mà không đồng ý😘. Bấm nút bên cạnh đi 😠"
   );
 }
+
+const itemTextPageFiveList = document.querySelectorAll(".item__text-page-five");
+
+// Định nghĩa một mảng chứa các giá trị delay tương ứng cho từng phần tử
+const delayValues = [6, 8, 10, 12, 14];
+
+// Sử dụng vòng lặp để thêm thuộc tính animation-delay cho các phần tử
+itemTextPageFiveList.forEach((item, index) => {
+  item.style.animationDelay = `${delayValues[index]}s`;
+});

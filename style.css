@@ -110,7 +110,7 @@
 .page-five {
   display: none;
 }
-.item__text-page-five:nth-child(2) {
+/* .item__text-page-five:nth-child(2) {
   animation-delay: 6s;
 }
 .item__text-page-five:nth-child(3) {
@@ -124,7 +124,7 @@
 }
 .item__text-page-five:nth-child(6) {
   animation-delay: 14s;
-}
+} */
 .continue-six {
   animation-delay: 15s;
 }
