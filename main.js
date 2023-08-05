@@ -4,6 +4,7 @@ let pageFour = document.getElementById("page-four");
 let pageFive = document.getElementById("page-five");
 let pageSix = document.getElementById("page-six");
 let pageSeven = document.getElementById("page-seven");
+let pageEight = document.getElementById("page-eight");
 
 function changePageTwo() {
   let titlePage = document.getElementById("title-page");
@@ -33,9 +34,13 @@ function changePageSix() {
   pageSix.style.display = "block";
   pageFive.style.display = "none";
 }
-function changeSevenPage() {
+function changePageSeven() {
   pageSeven.style.display = "block";
   pageSix.style.display = "none";
+}
+function changePageEight() {
+  pageEight.style.display = "block";
+  pageSeven.style.display = "none";
 }
 
 async function handleSubmit() {
@@ -50,11 +55,16 @@ async function handleSubmit() {
     },
     body: JSON.stringify(data),
   });
-  changeSevenPage();
-}
+  changePageSeven();
+} 
 
 function failChoice() {
   alert(
     "Anh viết cái này cho vui thôi chứ ấn không được đâu nha ! HIHI Ấn nút bên cạnh đuy 😘"
+  );
+}
+function failChoicetwo() {
+  alert(
+    "Anh cũng viết cái nút này cho vui thôi chứ đâu ra mà không đồng ý😘. Bấm nút bên cạnh đi 😠"
   );
 }
